@@ -27,6 +27,8 @@
 
 <hr>
 
+<hr>
+
 <style>
 div.sticky {
     position: fixed;
@@ -47,7 +49,7 @@ div.sticky a {
 <script type="text/javascript">
 $.ajax({
     type: "get",
-    url: "https://raw.githubusercontent.com/cranberryai/todak_todak_python/master/ads.json",
+    url: "https://raw.githubusercontent.com/cranberryai/todak_todak_python/master/docs/ads.json",
     success: function(data){
         var json = jQuery.parseJSON(data);
         var menus = json.menus;
